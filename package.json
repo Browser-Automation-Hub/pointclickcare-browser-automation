@@ -1,7 +1,7 @@
 {
-  "name": "pointclickcare-browser-automation",
+  "name": "@browser-automation-hub/pointclickcare-browser-automation",
   "version": "1.0.0",
-  "description": "Browser automation for PointClickCare — automate resident admissions, care plan management, MDS assessments, medication administration records (MAR), and billing workflows in long-term care facilities.",
+  "description": "Browser automation for PointClickCare — automate resident admissions, care plans, and billing workflows",
   "main": "src/actions.js",
   "scripts": {
     "start": "node examples/basic-login.js",
@@ -17,7 +17,7 @@
     "browser-automation",
     "puppeteer",
     "playwright",
-    "anchorbrowser",
+    "anchor-browser",
     "nodejs"
   ],
   "license": "MIT",
@@ -36,5 +36,8 @@
   "homepage": "https://github.com/Browser-Automation-Hub/pointclickcare-browser-automation#readme",
   "bugs": {
     "url": "https://github.com/Browser-Automation-Hub/pointclickcare-browser-automation/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
